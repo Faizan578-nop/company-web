@@ -96,7 +96,6 @@ table {
 .home {
     width: 90%px;
     height: 500px;
-    border: 3px solid red;
     margin-top: 60px;
 }
 
@@ -104,11 +103,13 @@ table {
 .article-home {
    display: flex;
    flex-direction: column;
+   margin-left: 50px;
 }
 .article-home h1  {
     color: #ffff;
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 30px;
+    font-weight: bolder;
 }
 .article-home p {
     color: #ffff;
@@ -136,6 +137,7 @@ table {
     background-color: var(--orange);
     border-radius: 10px;
 }
+/* banner */
 
 
 
