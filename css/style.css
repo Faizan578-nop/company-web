@@ -148,8 +148,8 @@ table {
 /* message-us */
 .message-page {
     display: flex;
-    padding: 100px 100px 100px 50px;
-    color: var(--orange);
+    padding: 150px 100px 100px 50px;
+    color: var(--bg);
     font-size: 24px;
     background-color: #101010;
 }
@@ -185,10 +185,24 @@ table {
 .form form .radio label {
     width:80px ;
 }
+/* tombol submit */
+#submit-message {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 180px;
+    background-color: white;
+    outline: var(--orange) 2px ;
+    border-radius: 20px;
+    border: none ;
+    outline: solid var(--orange) 3px;
+}
 /* H1 / judul form */
 .form>h1 {
     font-size: 40px;
     margin-bottom: 20px;
+    color: var(--orange);
 }
 /* textarea */
 #pesan {
@@ -196,6 +210,16 @@ table {
     outline: solid var(--orange) 3px;
     padding: 10px;
 }
+/* Judul page dan control pannel */
+.message-page >h1 {
+    position: absolute;
+    top: 900px;
+    left: 40%;
+    font-size: 50px;
+    font-weight: bolder;
+    color: var(--orange);
+}
+
 
 
 
