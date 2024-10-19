@@ -84,6 +84,9 @@ table {
     color: #ffff;
     font-size: 24px;
 }
+.navbar {
+    margin-right: 80px;
+}
 
 /* home page */
 .home-page {
@@ -143,8 +146,8 @@ table {
     align-items: center;
     justify-content: center;
 
-    position: absolute;
-    top: 350px;
+    position:absolute;
+    top: 200px;
     left: 100px;
     
 
@@ -180,23 +183,27 @@ table {
 
 /* message-us */
 .message-page {
+    position: relative;
     display: flex;
     padding: 150px 100px 100px 50px;
     color: var(--bg);
     font-size: 24px;
     background-image: url(../gambar/kota.jpg);
     background-size: cover;
+    
 }
 .value-form {
     border: #010101 solid 2px;
     width: 600px;
     height: 400px;
-    margin-left: 150px;
+    margin-left: 200px;
     background-color: white;
     outline: solid var(--orange) 3px;
     border-radius: 20px;
     
+    
 }
+
 .form p {
     display: inline-block;
 }
@@ -245,14 +252,15 @@ table {
     padding: 10px;
 }
 /* Judul page dan control pannel */
-/* .message-page >h1 {
+.message-page >h1 {
     position: absolute;
-    top: 900px;
-    left: 40%;
+    top: 30px; 
+    right: 47%;
+    z-index: 99;
     font-size: 50px;
     font-weight: bolder;
     color: var(--orange);
-} */
+} 
 
 
 /* Foter */
