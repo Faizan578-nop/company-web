@@ -255,6 +255,7 @@ html {scroll-behavior: smooth;}
 /* textarea */
 #pesan {
     border-radius: 20px;
+    border: ridge black 2px;
     outline: solid var(--orange) 3px;
     padding: 10px;
 }
@@ -300,4 +301,52 @@ html {scroll-behavior: smooth;}
 
 
 
+/* animasi tombol */
+
+/* navbar */
+/* saya ambil dari sumber lain */
+.navbar>a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.4rem;
+    border-bottom: solid 0.1rem var(--orange);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+.navbar a:hover::after {transform: scaleX(0.5);} 
+.navbar>a:hover {
+    color: var(--orange);
+}
+.navbar >a {
+    transition: 0.2s;
+}
+/* navbar-end */
+
+/* home */
+.article-home a:hover {
+    background-color: #ffff;
+    color: black;
+}
+/* home-end */
+
+/* message */
+.form form  label:hover{
+    background-color: var(--orange);
+}
+ #pesan:hover{
+    border: blue 3px ridge;
+}
+.form form input:hover {
+    border: blue 2px solid;
+}
+#submit-message:hover {
+    background-color: var(--orange);
+}
+/* message-end*/
+
+/* footer */
+.footer-nav a:hover {
+    color: var(--bg);
+}
+/* footer-end */
 
