@@ -69,6 +69,7 @@ html {scroll-behavior: smooth;}
     align-items: center;
     padding: 20px 0px;
     background-color: black;
+    border-bottom: 1px var(--orange) solid;
 }
 .logo {
     height: 60px;
@@ -80,9 +81,7 @@ html {scroll-behavior: smooth;}
     display: inline-block;
     text-decoration: none;
     width: 150px;
-    outline: 1px black solid;
     text-align: center;
-    padding: 20px 0;
     color: #ffff;
     font-size: 24px;
 }
@@ -222,6 +221,7 @@ html {scroll-behavior: smooth;}
     border-radius: 10px;
     background-color: white;
     outline: solid var(--orange) 3px;
+    text-align: center;
 }
 .form form p input {
     padding: 10px;
@@ -244,6 +244,7 @@ html {scroll-behavior: smooth;}
     border-radius: 20px;
     border: none ;
     outline: solid var(--orange) 3px;
+    font-size: 20px;
 }
 /* H1 / judul form */
 .form>h1 {
@@ -292,6 +293,7 @@ html {scroll-behavior: smooth;}
 .note h1 span {
     color: var(--bg);
 }
+
 
 
 
