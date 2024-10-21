@@ -189,38 +189,51 @@
 
             <h1> Isi Form</h1>
 
-            <form action="">
+
+
+
+            <form onsubmit="return validationFrom()" name="message-form">
              <!-- nama -->
             <label for="text-nk"> Nama </label>
-            <p>:<input type="text" id="text-nk" required placeholder="Nama"> </p>
+            <p>:<input name="full-name" type="text" id="text-nk" required placeholder="Nama"> </p>
             <br>
+
             <!-- tanggal lahir-->
             <label for="date-birth"> Tanggal lahir </label>
-            <p>:<input type="number" id="date-birth" required placeholder="Tanggal Lahir"> </p>
+            <p>:<input name="birth-day" type="date" id="date-birth" required placeholder="Tanggal Lahir"> </p>
+
             <!-- email -->
             <label for="email"> Gmail</label>
-            <p>:<input type="email" id="email" required placeholder="Email"> </p>
+            <p>:<input name="email" type="email" id="email" required placeholder="Email"> </p>
+
+
             <!-- kelamin -->
             <div class="radio">
             <p >kelamin </p> 
             <!-- laki laki -->
-            <input type="radio" name="kelamin" id="kelamin-laki" >
+            <input type="radio" name="gender" id="kelamin-laki" value="laki-laki" >
             <label for="kelamin-laki">Pria</label> 
             <!-- perempuan -->
-            <input type="radio" name="kelamin" id="kelamin-wanita" >
+            <input type="radio" name="gender" id="kelamin-wanita" value="perempuan">
             <label for="kelamin-wanita">wanita</label>
             </div>
+            <!-- kelamin-end -->
+
             <!-- pesan -->
             <label for="pesan">Input </label>
             <br>
-            <textarea name="area" id="pesan"  cols="60" rows="10" placeholder="pesan"> </textarea>
+            <textarea name="area" id="pesan"  cols="60" rows="10" placeholder="pesan" > </textarea>
             <br>
-            <input type="submit" id="submit-message" >
+            <input type="submit" id="submit-message" value="submit" >
             </div> 
 
             <!-- kotak isi dari massage -->
             <div class="value-form">
-                
+                <p>Nama: <span id="sender-full-name"></span> </p>
+                <p>Tanggal Lahir: <span id="sender-birth-date"></span> </p>
+                <p>Email: <span id="sender-email"></span> </p>
+                <p>Jenis Kelamin: <span id="sender-gender"></span> </p>
+                <p> Pesan: <span id="sender-messages"></span> </p>
             </div>
         </section>
 
@@ -228,10 +241,10 @@
 <!-- footer -->
     <footer class="footer">
         <div class="footer-nav">
-        <a href="#">Home</a>
-        <a href="#">Our Profile</a>
-        <a href="#">Portofolio</a>
-        <a href="#message">Message us</a>
+        <a href="#home-scroll ">Home</a>
+        <a href="#profile-page">Our Profile</a>
+        <a href="#portofolio-scroll">Portofolio</a>
+        <a href="#message-page">Message us</a>
         </div>
         <div class="note">
             <h1>create by <span>FaizanAR</span>|2024</h1>
