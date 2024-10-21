@@ -310,6 +310,7 @@ html {scroll-behavior: smooth;}
     padding: 20px;
     border-radius: 20px;
     font-size: 24px;
+    outline: solid var(--orange) 5px;
 }
 .testimoni-porto>p:nth-child(2) {
     margin-bottom: 30px;
@@ -325,6 +326,7 @@ html {scroll-behavior: smooth;}
     border-radius: 20px;
     font-size: 16px;
     list-style:disc;
+    outline: solid var(--orange) 5px;
 }
 .proyek-porto ul li h1 {
     padding-bottom: 5px;
@@ -354,7 +356,7 @@ html {scroll-behavior: smooth;}
     position: absolute;
     font-size: 50px;
     top: 5%;
-    left: 43%;
+    left: 40%;
     color: var(--orange);
     font-weight: bolder;
 }

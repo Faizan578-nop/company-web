@@ -36,7 +36,7 @@
                 </h1>
 
                 <p>silakan <span> sampaikan pesan </span>kepada kami</p>
-                <a href="#message">Message</a>
+                <a  id="home-a">Ganti Nama</a>
             </article>
             <div class="banner-home">
                 <img src="gambar/banner.png" alt="">
@@ -192,14 +192,14 @@
             <form action="">
              <!-- nama -->
             <label for="text-nk"> Nama </label>
-            <p>:<input type="text" id="text-nk"> </p>
+            <p>:<input type="text" id="text-nk" required placeholder="Nama"> </p>
             <br>
             <!-- tanggal lahir-->
             <label for="date-birth"> Tanggal lahir </label>
-            <p>:<input type="number" id="date-birth"> </p>
+            <p>:<input type="number" id="date-birth" required placeholder="Tanggal Lahir"> </p>
             <!-- email -->
             <label for="email"> Gmail</label>
-            <p>:<input type="email" id="email"> </p>
+            <p>:<input type="email" id="email" required placeholder="Email"> </p>
             <!-- kelamin -->
             <div class="radio">
             <p >kelamin </p> 
@@ -213,13 +213,15 @@
             <!-- pesan -->
             <label for="pesan">Input </label>
             <br>
-            <textarea name="area" id="pesan"  cols="60" rows="10"> </textarea>
+            <textarea name="area" id="pesan"  cols="60" rows="10" placeholder="pesan"> </textarea>
             <br>
             <input type="submit" id="submit-message" >
             </div> 
 
             <!-- kotak isi dari massage -->
-            <div class="value-form"></div>
+            <div class="value-form">
+                
+            </div>
         </section>
 
     </main>
