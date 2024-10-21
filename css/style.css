@@ -309,10 +309,8 @@ html {scroll-behavior: smooth;}
     color: #010101;
     padding: 20px;
     border-radius: 20px;
-    outline: solid 5px var(--orange);
     font-size: 24px;
 }
-
 .testimoni-porto>p:nth-child(2) {
     margin-bottom: 30px;
 }
@@ -320,18 +318,23 @@ html {scroll-behavior: smooth;}
 
 
 /* area right*/
-
 .layanan-porto>ul,.proyek-porto>ul {
     background-color: #ffff;
     color: #010101;
     padding: 20px;
     border-radius: 20px;
-    outline: solid 5px var(--orange);
     font-size: 16px;
     list-style:disc;
 }
-
-
+.proyek-porto ul li h1 {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.layanan-porto ul li {
+    padding-bottom: 10px;
+}
 /* area right end*/
 
 
@@ -341,11 +344,20 @@ html {scroll-behavior: smooth;}
 .layanan-porto>h1 ,.proyek-porto>h1,.about-porto>h1,.testimoni-porto>h1 {
     font-size: 40px;
     margin-bottom: 20px;
+    color: var(--orange);
+    font-weight: bolder;
 }
 .about-porto,.testimoni-porto,.layanan-porto,.proyek-porto {
     margin-bottom: 40px;
 }
-
+#portofolio {
+    position: absolute;
+    font-size: 50px;
+    top: 5%;
+    left: 43%;
+    color: var(--orange);
+    font-weight: bolder;
+}
 /* portofolio-end */
 
 /* message-us */
