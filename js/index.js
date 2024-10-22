@@ -43,3 +43,42 @@ function validationFrom (){
 
 
 // untuk bagian kotak message-end
+
+
+
+
+
+
+
+// banner scroll
+let slideIndex = 1
+
+
+function plusDiv (n){
+    showIndex(slideIndex += n)
+}
+
+function showIndex (n){
+    let i 
+    let banner = document.querySelectorAll(".banner-home > img")
+    if (n>banner.length){slideIndex=1}
+    if (n< 1){slideIndex=banner.length}
+    for (i = 0; i < banner.length; i++) {
+        banner[i].style.display = "none"
+    }
+    banner[slideIndex-1].style.display="block"
+    // console.info(slideIndex)
+}
+
+let buttonBanner = document.getElementsByClassName("button-scrol")
+buttonBanner[0].addEventListener("click",function(){
+    plusDiv(+1)
+    showIndex(slideIndex)
+})
+buttonBanner[1].addEventListener("click",function(){
+    plusDiv(-1)
+    showIndex(slideIndex)
+})
+
+showIndex(slideIndex)
+
