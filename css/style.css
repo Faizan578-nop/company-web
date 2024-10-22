@@ -125,10 +125,7 @@ html {scroll-behavior: smooth;}
     align-items: center;
     justify-content: center;
 }
-.button-scrol:hover{
-    background-color: #ffff;
-    color: var(--bg);
-}
+
 .bst-next{
     right: 40%;
 }
@@ -412,26 +409,28 @@ html {scroll-behavior: smooth;}
 }
 .value-form {
     border: #010101 solid 2px;
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 55vh;
     margin-left: 200px;
     background-color: white;
     outline: solid var(--orange) 3px;
     border-radius: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     
 }
 .value-form>p {
-    width: 60%;
+    width: 100%;
     text-align: left;
     height: 20px;
     padding: 5px;
-    margin: 10px;
+    margin: 20px;
 }
-
+#sender-messages{
+    width: 100%;
+    height: auto;
+}
 .form p {
     display: inline-block;
 }
@@ -546,10 +545,16 @@ html {scroll-behavior: smooth;}
 /* navbar-end */
 
 /* home */
+.button-scrol:hover{
+    background-color: #ffff;
+    color: var(--bg);
+}
 .article-home a:hover {
     background-color: #ffff;
     color: black;
 }
+.button-scrol{transition: 0.15s;}
+.article-home a ,.article-home a {transition: 0.15s;}
 /* home-end */
 
 /* message */
@@ -564,6 +569,9 @@ html {scroll-behavior: smooth;}
 }
 #submit-message:hover {
     background-color: var(--orange);
+}
+.form form label,#submit-message{
+    transition: 0.15s;
 }
 /* message-end*/
 
