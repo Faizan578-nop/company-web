@@ -600,7 +600,7 @@ html {scroll-behavior: smooth;}
     }
 }
 /* Media Query untuk Tablet (max-width: 768px) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media   (max-width: 768px) {
     /* Gaya untuk tablet */
     
     .header {
@@ -617,7 +617,7 @@ html {scroll-behavior: smooth;}
         padding: 0;
     }
     .navbar>a {
-        font-size: 10px;
+        font-size: 20px;
         padding: 0px;
         margin: 0;
         
@@ -629,7 +629,7 @@ html {scroll-behavior: smooth;}
         height: 100%;
     }
     #home-a {
-        margin-top: 20px;
+        top: 50%;
     }
     .banner-home {
         width: 90%;
