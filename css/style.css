@@ -210,7 +210,7 @@ html {scroll-behavior: smooth;}
 .profile-page {
     position: relative;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     border-bottom: var(--bg) solid 4px;
     background-image: url(../gambar/gurun.jpg);
     background-size: cover;
@@ -581,3 +581,89 @@ html {scroll-behavior: smooth;}
 }
 /* footer-end */
 
+
+
+/* Gaya default untuk desktop sudah ada di file */
+
+/* Media Query untuk Handphone (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Sesuaikan ukuran font, padding, margin, dll. untuk handphone */
+    .header {
+        padding: 10px 0px;
+    }
+
+    .navbar > a {
+        font-size: 18px;
+        width: 100px;
+    }
+
+    .home-page {
+        padding-top: 80px;
+        background-size: cover;
+    }
+
+    .article-home h1 {
+        font-size: 30px;
+    }
+
+    .article-home p {
+        font-size: 18px;
+    }
+
+    .banner-home img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Sesuaikan bagian lain sesuai kebutuhan */
+}
+
+/* Media Query untuk Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Gaya untuk tablet */
+    .navbar > a {
+        font-size: 20px;
+        width: 120px;
+    }
+
+    .article-home h1 {
+        font-size: 36px;
+    }
+
+    .article-home p {
+        font-size: 20px;
+    }
+
+    .banner-home img {
+        width: 700px;
+        height: auto;
+    }
+
+    .profile-page {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .profile, .portofolio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Sesuaikan bagian lain sesuai kebutuhan */
+}
+
+/* Media Query untuk Laptop (max-width: 1366px) */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+
+    .navbar > a {
+        font-size: 22px;
+    }
+
+    .banner-home img {
+        width: 800px;
+        height: auto;
+    }
+}
